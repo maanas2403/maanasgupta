@@ -208,12 +208,12 @@ figure {
         display: inline;
         list-style: none; }
         #colorlib-aside .colorlib-footer ul li a {
-          color: rgba(255, 255, 255, 0.3);
+          color: black;
           padding: 4px; }
           #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
             text-decoration: none;
             outline: none;
-            color: #2c98f0; }
+            color: blue }
 
 .container-wrap {
   max-width: 1170px;
@@ -598,17 +598,20 @@ body.offcanvas {
   margin-left: -9px; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p + p {
-  margin-top: 15px; }
+  margin-top: 5px; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
-  font-size: 20px;
+  font-size: 30px;
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 500; }
-
+  .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h3 {
+    font-size: 20px;
+    font-family: "Quicksand", Arial, sans-serif;
+    font-weight: 500; }
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a {
   color: #000; }
 
-.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 span {
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h3 span {
   -webkit-opacity: .4;
   -moz-opacity: .4;
   opacity: .4;
