@@ -52,7 +52,7 @@
 	</head>
 	<body>
 	<div id="colorlib-page">
-		<div class="container-wrap">
+		<div class="container-fluid">
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
 		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
 			<div class="text-center">
@@ -89,7 +89,9 @@
 			<section id="colorlib-hero" class="js-fullheight" data-section="home">
 				<div class="flexslider js-fullheight">
 					<ul class="slides">
-				   	<li style="background-image: url(images/bgm.jpg);">
+				   	<li style="background-image: url(images/bgm.jpg); background-position: top; /* Align the image to the top */
+					    /* Ensure the entire image fits without zooming */
+					    /* Prevent tiling */">
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
 				   			<div class="row">
@@ -105,7 +107,7 @@
 					   		</div>
 				   		</div>
 				   	</li>
-				   	<li style="background-image: url(images/1692307100638.jpg);">
+				   	<li style="background-image: url(images/1692307100638.jpg); background-position: top;">
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
 				   			<div class="row">
@@ -844,4 +846,3 @@
 
 	</body>
 </html>
-
