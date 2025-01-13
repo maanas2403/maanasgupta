@@ -1671,7 +1671,7 @@ body.dark-mode .fa-moon {
     color: white;  /* Moon remains white */
 }
 
-body.dark-mode #colorlib-main-menu ul li a {
+body.dark-mode #colorlib-main-menu ul li a, body.dark-mode #colorlib-aside .text-center h1{
     color: white !important;  /* Force navigation links to white in dark mode */
 }
 /* Light Mode - Footer Links Default */
@@ -1681,7 +1681,7 @@ body.dark-mode #colorlib-main-menu ul li a {
 }
 
 /* Dark Mode - Footer Links Default */
-body.dark-mode .colorlib-footer ul li a {
+body.dark-mode .colorlib-footer ul li a,body.dark-mode .colorlib-aside ul li a {
     color: white; /* White in dark mode */
     transition: color 0.3s ease; /* Smooth transition on hover/click */
 }
