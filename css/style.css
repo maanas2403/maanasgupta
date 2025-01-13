@@ -1595,6 +1595,7 @@ input:checked + .slider {
 body.dark-mode {
   background-color: #000;
   color: #fff;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 body.dark-mode .colorlib-footer ul li a {
@@ -1674,7 +1675,7 @@ body.dark-mode .fa-moon {
 body.dark-mode #colorlib-main-menu ul li a, body.dark-mode #colorlib-logo{
     color: white !important;  /* Force navigation links to white in dark mode */
 }
-/* Light Mode - Footer Links Default */
+
 body.dark-mode .text-center h1 {
     color: white; /* Navbar heading default color in dark mode */
     transition: color 0.3s ease;
@@ -1697,4 +1698,3 @@ body.dark-mode .colorlib-footer ul li a:hover,
 body.dark-mode .colorlib-footer ul li a:focus {
     color: #2c98f0; /* Blue on hover or focus */
 }
-
