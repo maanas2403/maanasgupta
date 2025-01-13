@@ -1616,7 +1616,9 @@ body.dark-mode a {
 body.dark-mode #colorlib-aside {
   background: #333;
 }
-
+body.dark-mode #colorlib-aside .text-center #colorlib-logo a{
+  color: white
+}
 body.dark-mode #colorlib-main {
   background-color: #111;
 }
