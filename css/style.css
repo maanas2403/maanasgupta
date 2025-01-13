@@ -1690,11 +1690,15 @@ body.dark-mode .colorlib-footer {
     color: white;
 }
 
-body.dark-mode .colorlib-footer ul li a {
+body.dark-mode .colorlib-footer ul li a .icon-twitter2,body.dark-mode .colorlib-footer ul li a .icon-linkedin2{
     color: white; /* Footer links default white */
 }
 
-body.dark-mode .colorlib-footer ul li a:hover, 
-body.dark-mode .colorlib-footer ul li a:focus {
+body.dark-mode .colorlib-footer ul li a .icon-twitter2:hover, 
+body.dark-mode .colorlib-footer ul li a .icon-twitter2:focus, 
+body.dark-mode .colorlib-footer ul li a .icon-twitter2:active,
+body.dark-mode .colorlib-footer ul li a .icon-linkedin2:hover, 
+body.dark-mode .colorlib-footer ul li a .icon-linkedin2:focus,
+body.dark-mode .colorlib-footer ul li a .icon-linkedin2:active{
     color: #2c98f0; /* Blue on hover or focus */
 }
