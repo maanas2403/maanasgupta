@@ -337,7 +337,7 @@ figure {
             border: 1px solid white;
             text-shadow: 4px 4px 20px rgba(0, 0, 0, 1)!important;
             background: transparent !important; }
-            #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover,  .btn.btn-learn:focus{
               background: transparent !important;
               border: 1px solid white !important; 
               text-shadow: 4px 4px 20px rgba(0, 0, 0, 1)!important;}
