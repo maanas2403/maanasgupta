@@ -311,22 +311,14 @@
     if (currentTheme === 'dark') {
         document.body.classList.add('dark-mode');
         toggleSwitch.checked = true;
-        document.getElementById('icon-sun').style.visibility = 'hidden';
-        document.getElementById('icon-moon').style.visibility = 'visible';
     }
 
     toggleSwitch.addEventListener('change', function () {
         if (this.checked) {
             document.body.classList.add('dark-mode');
             localStorage.setItem('theme', 'dark');
-            document.getElementById('icon-sun').style.visibility = 'hidden';
-            document.getElementById('icon-moon').style.visibility = 'visible';
         } else {
             document.body.classList.remove('dark-mode');
             localStorage.setItem('theme', 'light');
-            document.getElementById('icon-sun').style.visibility = 'visible';
-            document.getElementById('icon-moon').style.visibility = 'hidden';
         }
     });
-
-}());
