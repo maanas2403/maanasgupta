@@ -1521,7 +1521,7 @@ body.offcanvas {
 .switch {
     position: relative;
     display: inline-block;
-    width: 60px;
+    width: 120px;
     height: 30px;
 }
 
