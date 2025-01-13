@@ -323,3 +323,5 @@
             localStorage.setItem('theme', 'light');
         }
     });
+
+}());
