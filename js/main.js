@@ -308,9 +308,10 @@
 	const toggleSwitch = document.getElementById('theme-toggle');
     const currentTheme = localStorage.getItem('theme');
 
+    // Set theme based on localStorage
     if (currentTheme === 'dark') {
         document.body.classList.add('dark-mode');
-        toggleSwitch.checked = true;
+        toggleSwitch.checked = true; // Set the slider on the moon side (dark mode)
     }
 
     toggleSwitch.addEventListener('change', function () {
