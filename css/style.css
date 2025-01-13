@@ -1671,7 +1671,7 @@ body.dark-mode .fa-moon {
     color: white;  /* Moon remains white */
 }
 
-body.dark-mode #colorlib-main-menu ul li a, body.dark-mode #colorlib-aside .text-center h1{
+body.dark-mode #colorlib-main-menu ul li a, body.dark-mode #colorlib-logo{
     color: white !important;  /* Force navigation links to white in dark mode */
 }
 /* Light Mode - Footer Links Default */
