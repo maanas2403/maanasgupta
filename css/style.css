@@ -1671,6 +1671,23 @@ body.dark-mode .fa-moon {
     color: white;  /* Moon remains white */
 }
 
-body.dark-mode #colorlib-main-menu ul li a,body.dark-mode #colorlib-footer ul li a {
+body.dark-mode #colorlib-main-menu ul li a {
     color: white !important;  /* Force navigation links to white in dark mode */
+}
+body.dark-mode .colorlib-footer ul li a {
+    color: white;  /* White in dark mode */
+    transition: color 0.3s ease;  /* Smooth transition on hover/click */
+}
+
+/* Hover and Click - Change to #2c98f0 in both modes */
+.colorlib-footer ul li a:hover, 
+.colorlib-footer ul li a:active, 
+.colorlib-footer ul li a:focus {
+    color: #2c98f0;  /* Change to #2c98f0 on hover, active, or focus */
+}
+
+/* For icons inside the links, ensure they inherit color */
+.colorlib-footer ul li a i {
+    color: inherit;  /* Icons inherit the link color */
+    transition: color 0.3s ease;  /* Smooth transition on hover/click */
 }
