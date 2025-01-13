@@ -1594,50 +1594,35 @@ input:checked + .slider {
 body.dark-mode {
   background-color: #000;
   color: #fff;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-/* Dark Mode for the Navbar Heading */
-body.dark-mode .text-center h1 {
-  color: #fff; /* Default white in dark mode */
-  transition: color 0.3s ease;
-}
-
-body.dark-mode .text-center h1:hover,
-body.dark-mode .text-center h1:focus {
-  color: #2c98f0; /* Blue on hover */
-}
-
-/* Dark Mode for Footer */
-body.dark-mode .colorlib-footer {
-  color: white; /* Default text color */
 }
 
 body.dark-mode .colorlib-footer ul li a {
-  color: white; /* Default link color */
-  transition: color 0.3s ease;
+    color: white;  /* Footer icons remain white in dark mode */
 }
 
-body.dark-mode .colorlib-footer ul li a:hover,
-body.dark-mode .colorlib-footer ul li a:focus {
-  color: #2c98f0; /* Blue on hover */
+body.dark-mode h1, 
+body.dark-mode h2, 
+body.dark-mode h3, 
+body.dark-mode h4, 
+body.dark-mode h5, 
+body.dark-mode h6 {
+  color: #fff;
 }
 
-/* Other Dark Mode Adjustments */
 body.dark-mode a {
-  color: #2c98f0; /* Links default blue in dark mode */
-}
-
-body.dark-mode p {
-  color: #ccc; /* Paragraphs softer white */
+  color: #2c98f0;
 }
 
 body.dark-mode #colorlib-aside {
-  background: #333; /* Sidebar background in dark mode */
+  background: #333;
 }
 
 body.dark-mode #colorlib-main {
-  background-color: #111; /* Main content area background */
+  background-color: #111;
+}
+
+body.dark-mode p {
+  color: #ccc;
 }
 
 /* Dark Mode for Specific Sections */
@@ -1647,11 +1632,11 @@ body.dark-mode .colorlib-skills,
 body.dark-mode .colorlib-about,
 body.dark-mode .colorlib-services,
 body.dark-mode .colorlib-work {
-  background-color: #222; /* Section background */
-  color: #ddd; /* Section text */
+  background-color: #222; /* Dark background for sections */
+  color: #ddd; /* Light text color */
 }
 
-/* Panel and Timeline Dark Mode */
+/* Dark Mode for Panel (accordion) in Education */
 body.dark-mode .panel-heading a {
   background-color: #444;
   color: #fff;
@@ -1662,11 +1647,52 @@ body.dark-mode .panel-body {
   color: #ddd;
 }
 
+/* Dark Mode for Timeline Labels in Experience Section */
 body.dark-mode .timeline-centered .timeline-entry .timeline-label {
   background-color: #333;
   color: #ddd;
 }
+body.dark-mode .timeline-centered .timeline-entry .timeline-label a,
+body.dark-mode .timeline-centered .timeline-entry .timeline-label h2,
+body.dark-mode .timeline-centered .timeline-entry .timeline-label h3 {
+  color: #fff;
+}
 
 body.dark-mode .timeline-centered:before {
-  background: #555;
+  background: #555; /* Timeline line color */
+}
+
+body.dark-mode .fa-sun {
+    color: #ffdd00; /* Sun color in dark mode */
+}
+
+body.dark-mode .fa-moon {
+    color: white;  /* Moon remains white */
+}
+
+body.dark-mode #colorlib-main-menu ul li a, body.dark-mode #colorlib-logo{
+    color: white !important;  /* Force navigation links to white in dark mode */
+}
+/* Light Mode - Footer Links Default */
+body.dark-mode .text-center h1 {
+    color: white; /* Navbar heading default color in dark mode */
+    transition: color 0.3s ease;
+}
+
+body.dark-mode .text-center h1:hover, 
+body.dark-mode .text-center h1:focus {
+    color: #2c98f0; /* Blue on hover or focus */
+}
+
+body.dark-mode .colorlib-footer {
+    color: white;
+}
+
+body.dark-mode .colorlib-footer ul li a {
+    color: white; /* Footer links default white */
+}
+
+body.dark-mode .colorlib-footer ul li a:hover, 
+body.dark-mode .colorlib-footer ul li a:focus {
+    color: #2c98f0; /* Blue on hover or focus */
 }
