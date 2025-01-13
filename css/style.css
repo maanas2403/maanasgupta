@@ -1509,11 +1509,25 @@ body.offcanvas {
 .js .animate-box {
   opacity: 0; }
 
+.colorlib-footer ul li a {
+    color: white; /* Set footer icons to white */
+}
+
+.colorlib-footer ul li a:hover {
+    color: #ffdd00; /* Optional: Sun color on hover */
+}
+
+/* Add margin to the slider in the footer to create a gap from list items */
+.colorlib-footer .switch {
+    margin-top: 20px;  /* Add some gap between the slider and the list items */
+}
+
+/* Adjust the slider */
 .switch {
     position: relative;
     display: inline-block;
-    width: 80px;  /* Increase width */
-    height: 34px; /* Slightly larger height */
+    width: 80px;  /* Increased width */
+    height: 34px; /* Larger height */
 }
 
 .switch input {
@@ -1533,7 +1547,7 @@ body.offcanvas {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10px; /* More padding for bigger icons */
+    padding: 0 10px; /* Padding for the icons */
 }
 
 .slider:before {
@@ -1551,7 +1565,7 @@ body.offcanvas {
 /* Position the icons */
 #icon-sun, #icon-moon {
     position: absolute;
-    font-size: 18px; /* Slightly bigger icons */
+    font-size: 18px; /* Bigger icons */
     top: 50%;
     transform: translateY(-50%);
     color: white;
@@ -1655,4 +1669,8 @@ body.dark-mode .fa-sun {
 
 body.dark-mode .fa-moon {
     color: white;  /* Moon remains white */
+}
+
+body.dark-mode #colorlib-main-menu ul li a {
+    color: white !important;  /* Force navigation links to white in dark mode */
 }
