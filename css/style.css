@@ -1675,27 +1675,26 @@ body.dark-mode #colorlib-main-menu ul li a, body.dark-mode #colorlib-logo{
     color: white !important;  /* Force navigation links to white in dark mode */
 }
 /* Light Mode - Footer Links Default */
-.colorlib-footer ul li a {
-    color: black; /* Black in light mode */
-    transition: color 0.3s ease; /* Smooth transition on hover/click */
+body.dark-mode .text-center h1 {
+    color: white; /* Navbar heading default color in dark mode */
+    transition: color 0.3s ease;
 }
 
-/* Dark Mode - Footer Links Default */
-body.dark-mode .colorlib-footer ul li a,body.dark-mode .colorlib-aside ul li a {
-    color: white; /* White in dark mode */
-    transition: color 0.3s ease; /* Smooth transition on hover/click */
+body.dark-mode .text-center h1:hover, 
+body.dark-mode .text-center h1:focus {
+    color: #2c98f0; /* Blue on hover or focus */
 }
 
-/* Hover and Click - Change to #2c98f0 in both modes */
-.colorlib-footer ul li a:hover, 
-.colorlib-footer ul li a:active, 
-.colorlib-footer ul li a:focus {
-    color: #2c98f0; /* Change to #2c98f0 on hover, active, or focus */
+body.dark-mode .colorlib-footer {
+    color: white;
 }
 
-/* Icons inside the links should inherit the color */
-.colorlib-footer ul li a i {
-    color: inherit; /* Icons inherit the link color */
-    transition: color 0.3s ease; /* Smooth transition on hover/click */
+body.dark-mode .colorlib-footer ul li a {
+    color: white; /* Footer links default white */
+}
+
+body.dark-mode .colorlib-footer ul li a:hover, 
+body.dark-mode .colorlib-footer ul li a:focus {
+    color: #2c98f0; /* Blue on hover or focus */
 }
 
